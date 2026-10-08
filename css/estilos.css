@@ -144,6 +144,24 @@ nav a.activo {
   font-size: 18px;
 }
 
+/* ===== Enlaces y botones ===== */
+.boton {
+  display: inline-block;
+  padding: 8px 20px;
+  background-color: var(--color-superficie);
+  color: var(--color-acento-claro);
+  font-family: var(--fuente-base);
+  font-size: 16px;
+  text-decoration: none;
+  border: 1px solid var(--color-acento);
+  border-radius: var(--radio);
+}
+
+.boton:hover {
+  background-color: var(--color-acento);
+  color: #ffffff;
+}
+
 /* ===== Pie de página ===== */
 .pie {
   padding: 16px;
