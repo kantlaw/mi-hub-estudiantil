@@ -183,6 +183,30 @@ tbody tr:hover td {
   background-color: #1c1c21;
 }
 
+/* ===== Formulario ===== */
+.formulario {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  max-width: 520px;
+  margin: 0 auto;
+}
+
+.formulario input,
+.formulario textarea {
+  padding: 10px;
+  background-color: var(--color-fondo);
+  color: var(--color-texto);
+  font-family: var(--fuente-base);
+  font-size: 16px;
+  border: 1px solid var(--color-borde);
+  border-radius: var(--radio);
+}
+
+.formulario .boton {
+  margin-top: 8px;
+}
+
 /* ===== Pie de página ===== */
 .pie {
   padding: 16px;
@@ -193,4 +217,16 @@ tbody tr:hover td {
 
 .pie p {
   margin: 0;
+}
+
+/* ===== Responsivo: tarjetas a una columna ===== */
+@media (max-width: 600px) {
+  .tarjetas,
+  .tarjetas.tres {
+    grid-template-columns: 1fr;
+  }
+
+  .encabezado {
+    flex-direction: column;
+  }
 }
