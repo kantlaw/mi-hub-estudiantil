@@ -130,6 +130,20 @@ nav a.activo {
   box-shadow: 0 0 18px var(--color-sombra);
 }
 
+/* ===== Tarjeta destacada: Meta del semestre ===== */
+.meta {
+  padding: 32px;
+  background-color: var(--color-superficie);
+  border: 2px solid var(--color-acento);
+  border-radius: var(--radio);
+  box-shadow: 0 0 25px var(--color-sombra);
+}
+
+.meta p {
+  margin: 0;
+  font-size: 18px;
+}
+
 /* ===== Pie de página ===== */
 .pie {
   padding: 16px;
