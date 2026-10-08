@@ -88,6 +88,48 @@ nav a.activo {
   border-color: var(--color-acento);
 }
 
+/* ===== Tarjetas (Grid) ===== */
+.tarjetas {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+
+.tarjetas.tres {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.tarjeta {
+  padding: 24px;
+  background-color: var(--color-superficie);
+  border: 1px solid var(--color-borde);
+  border-radius: var(--radio);
+}
+
+.tarjeta:hover {
+  border-color: var(--color-acento);
+}
+
+/* ===== Perfil ===== */
+.perfil {
+  text-align: center;
+}
+
+.perfil ul {
+  display: inline-block;
+  margin: 0;
+  text-align: left;
+}
+
+.avatar {
+  width: 140px;
+  height: 140px;
+  margin-bottom: 16px;
+  border: 2px solid var(--color-acento);
+  border-radius: 50%;
+  box-shadow: 0 0 18px var(--color-sombra);
+}
+
 /* ===== Pie de página ===== */
 .pie {
   padding: 16px;
