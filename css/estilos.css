@@ -162,6 +162,27 @@ nav a.activo {
   color: #ffffff;
 }
 
+/* ===== Tabla ===== */
+table {
+  width: 100%;
+  background-color: var(--color-borde);
+}
+
+th,
+td {
+  padding: 12px 16px;
+  text-align: left;
+  background-color: var(--color-superficie);
+}
+
+th {
+  color: var(--color-acento-claro);
+}
+
+tbody tr:hover td {
+  background-color: #1c1c21;
+}
+
 /* ===== Pie de página ===== */
 .pie {
   padding: 16px;
